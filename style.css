@@ -115,11 +115,121 @@
   width: 90rem;
   height: auto;
   margin: 6rem auto;
+  border: 2px dashed rebeccapurple;
 }
 
-.see-action-section-container{
-    border: 2px solid green;
-    
+/* see-action-section-container */
+
+.see-action-section-container {
+  border: 2px solid green;
+  display: flex;
+  width: 71.25rem;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0rem auto;
+}
+
+/* text-btn-container */
+
+.text-btn-container > h1 {
+  color: #252432;
+  font-family: Raleway;
+  font-size: 2.625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.text-btn-container > p {
+  color: rgba(37, 36, 50, 0.5);
+  font-family: Raleway;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.875rem; /* 125% */
+  margin: 1.44rem 0rem;
+}
+.text-btn-container > a > button {
+  height: 3rem;
+  padding: 0.75rem 2.25rem;
+  border-radius: 0.625rem;
+  background-color: #4e47ff;
+  color: #fff;
+  font-family: Raleway;
+  font-size: 1rem;
+  font-weight: 700;
+  /* outline: none; */
+  border: none;
+  line-height: 150%; /* 1.5rem */
+  cursor: pointer;
+}
+
+.text-btn-container > a > button:hover {
+  background-color: #4338ca;
+}
+.see-action-section-container > img {
+  border-radius: 3rem;
+}
+
+/* joined-thousands-section-container */
+
+.joined-thousands-section-container {
+  border: 2px solid rgb(246, 0, 241);
+  width: 71.25rem;
+  /* height: 2rem; */
+  margin: 7rem auto;
+  display: flex;
+  width: 71.25rem;
+  padding: 3.125rem 5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  gap: 2.5rem;
+  border-radius: 1.5rem;
+  background: rgba(78, 71, 255, 0.1);
+}
+
+.joined-thousands-section-container > h1 {
+  color: #252432;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 2.375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* big-numbers-container */
+.big-numbers-container {
+  display: flex;
+  justify-content: space-evenly;
+  /* background-color: aqua; */
+  align-items: center;
+}
+.big-numbers-container > .big-number {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* big-numbers */
+
+.big-number > .big-numbers {
+  color: var(--Primary-Color, #4e47ff);
+  font-family: Inter;
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.big-number > .big-numbers-her-text {
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 /*  */
