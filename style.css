@@ -393,4 +393,104 @@
   border-radius: 3rem;
 }
 
+/* massage-section-main-container */
+
+.massage-section-main-container {
+  width: 71.25rem;
+  border: 2px solid red;
+  margin: 0rem auto;
+  display: flex;
+  justify-content: space-between;
+  /* gap: 2.8rem; */
+}
+
+.massage-section-main-container > h1 {
+  color: #000;
+  font-family: Raleway;
+  font-size: 6.0625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 7.275rem */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* main-input-section-container */
+.main-input-section-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.main-input-section-container > a > button {
+  width: 100%;
+  display: flex;
+  padding: 1.1875rem 6.3125rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.625rem;
+  background: #4e47ff;
+  color: #fff;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 1.5rem */
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.main-input-section-container > a > button:hover {
+  background-color: #4338ca;
+}
+
+.main-input-section-container > p {
+  color: #000;
+  font-family: Inter;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 1.35rem */
+  margin: 1rem 0rem 0.4rem 0rem;
+}
+
+/* main-input-section-container > input */
+.main-input-section-container > .input {
+  display: flex;
+  height: 4.375rem;
+  padding: 0.1rem 2rem;
+  align-items: flex-start;
+  gap: 0.625rem;
+  align-self: stretch;
+  border-radius: 0.625rem;
+  border: 1px solid #d6dded;
+  background: #fff;
+  outline: none;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 1.875rem */
+}
+.main-input-section-container > .textarea {
+  display: flex;
+  padding: 1.5rem 2rem;
+  align-items: flex-start;
+  gap: 0.625rem;
+  align-self: stretch;
+  border-radius: 0.625rem;
+  border: 1px solid #d6dded;
+  background: #fff;
+  outline: none;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 1.875rem */
+}
+
 /*  */
