@@ -1,0 +1,117 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+}
+
+/* header section start */
+
+.header {
+  width: 90rem;
+  height: 43.625rem;
+  margin: 0rem auto;
+  /* overflow: auto; */
+  background-image: url("assets/hero_bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 2px solid red;
+
+}
+
+/* nav-banner-container */
+
+.nav-banner-container{
+    /* display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  border: 3px solid green;
+  flex-direction: column; */
+}
+
+
+
+/* nav section */
+
+.nav {
+  display: flex;
+  width: 71.25rem;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3.12rem auto 0rem auto;
+  height: auto;
+}
+.nav > p {
+  color: #4e47ff;
+  font-family: Inter;
+  font-size: 2.125rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 150%; /* 3.1875rem */
+  cursor: pointer;
+}
+.nav > a > button {
+  height: 3rem;
+  padding: 0.75rem 2.25rem;
+  border-radius: 0.625rem;
+  background-color: #4e47ff;
+  color: #fff;
+  font-family: Raleway;
+  font-size: 1rem;
+  font-weight: 700;
+  /* outline: none; */
+  border: none;
+  line-height: 150%; /* 1.5rem */
+  cursor: pointer;
+}
+.nav > a > button:hover {
+  background-color: #4338ca;
+}
+
+/* banner text start */
+
+.banner-text-container {
+  display: flex; 
+  flex-direction: column;
+  gap: 2.3rem;
+  justify-content: center;
+  align-items: center;
+  height: 34rem;
+  /* text-align: center; */
+
+}
+
+.banner-main-text {
+  color: #252432;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 4.0625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  /* align-self: stretch; */
+}
+
+/* <!-- banner btn --> */
+
+.banner-text-container > a > button {
+  height: 3rem;
+  padding: 0.75rem 2.25rem;
+  border-radius: 0.625rem;
+  background-color: #4e47ff;
+  color: #fff;
+  font-family: Raleway;
+  font-size: 1rem;
+  font-weight: 700;
+  /* outline: none; */
+  border: none;
+  line-height: 150%; /* 1.5rem */
+  cursor: pointer;
+}
+
+.banner-text-container > a > button:hover {
+  background-color: #4338ca;
+}
+
+
+/* main section here */
