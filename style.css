@@ -493,4 +493,50 @@
   line-height: 150%; /* 1.875rem */
 }
 
+/* footer-main-container */
+.footer-main-container {
+  border: 3px solid greenyellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 10rem 0rem;
+}
+.footer-main-container > h1 {
+  color: #4e47ff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 6.25rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.footer-main-container > p {
+  color: #8987a1;
+  text-align: center;
+
+  /* Paragraph */
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 1.5rem */
+}
+
+.bottom-nav {
+  display: flex;
+  gap: 3rem;
+}
+.bottom-nav > p {
+  color: #8987a1;
+
+  /* Paragraph */
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 1.5rem */
+  cursor: pointer;
+}
+
 /*  */
