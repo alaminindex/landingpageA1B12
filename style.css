@@ -15,21 +15,18 @@
   background-size: cover;
   background-repeat: no-repeat;
   border: 2px solid red;
-
 }
 
 /* nav-banner-container */
 
-.nav-banner-container{
-    /* display: flex;
+.nav-banner-container {
+  /* display: flex;
   justify-content: center;
   align-items: center;
   height: 600px;
   border: 3px solid green;
   flex-direction: column; */
 }
-
-
 
 /* nav section */
 
@@ -71,14 +68,13 @@
 /* banner text start */
 
 .banner-text-container {
-  display: flex; 
+  display: flex;
   flex-direction: column;
   gap: 2.3rem;
   justify-content: center;
   align-items: center;
   height: 34rem;
   /* text-align: center; */
-
 }
 
 .banner-main-text {
@@ -113,5 +109,17 @@
   background-color: #4338ca;
 }
 
-
 /* main section here */
+
+.main-container {
+  width: 90rem;
+  height: auto;
+  margin: 6rem auto;
+}
+
+.see-action-section-container{
+    border: 2px solid green;
+    
+}
+
+/*  */
